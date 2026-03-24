@@ -23,7 +23,13 @@ O projeto utiliza dados relacionados a clientes, uso de serviços e planos da Me
 - volume de dados móveis consumidos
 - receita mensal por cliente
 
-Os arquivos de dados utilizados variam conforme a estrutura do projeto, podendo incluir tabelas separadas para usuários, chamadas, mensagens, internet e planos.
+Os arquivos utilizados no projeto estão organizados na pasta `datasets/`:
+
+- `megaline_calls.csv`
+- `megaline_internet.csv`
+- `megaline_messages.csv`
+- `megaline_plans.csv`
+- `megaline_users.csv`
 
 ## Objetivos da Análise
 
@@ -64,7 +70,12 @@ megaline-plan-analysis/
 ├── README.md
 ├── requirements.txt
 ├── megaline_plan_analysis.ipynb
-└── arquivos csv do projeto
+└── datasets/
+    ├── megaline_calls.csv
+    ├── megaline_internet.csv
+    ├── megaline_messages.csv
+    ├── megaline_plans.csv
+    └── megaline_users.csv
 ````
 
 ## Como executar

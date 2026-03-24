@@ -53,8 +53,7 @@ O projeto foi desenvolvido nas seguintes etapas:
 - Python
 - Pandas
 - NumPy
-- Matplotlib
-- SciPy
+- Scikit-learn
 - Jupyter Notebook
 
 ## Estrutura do Repositório
